@@ -1,0 +1,66 @@
+<!doctype HTML>
+<html>
+<head>
+<title>Forms</title>
+</head>
+<body>
+<h3>Hello World</h3>
+<hr>
+<header style="background-color:powderblue;">
+<h4 >Registration</h4>
+<h4 >Form</h4>
+</header>
+<fieldset>
+<legend>Register now</legend>
+<form>
+<label>username <font color="red">*</font></label>
+<input type="text" placeholder="username" required pattern="[a-zA-Z]" title="only alphabets are allowed">
+<br><br>
+<label>Email</label>
+<input type="email" placeholder="Email">
+<br><br>
+<label>DOB</lable>
+<input type="datetime-local">
+<br><br>
+<label>Password</label>
+<input type="password" placeholder="Password">
+<br><br>
+<label>Rate yourself onscale 1 to 10 for JS</label>
+<input type="range" min="1" max="10">
+<br><br>
+<label>Gender</label>
+<input type="radio" name="gen">Male
+<input type="radio" name="gen">Female
+<input type="radio" name="gen">Prefer not to say
+<br><br>
+<label>Fav Color</label>
+<input type="color">
+<br><br>
+<label>Fav IPL Team</label>
+<select>
+<option>CSK</option>
+<option>RCB</option>
+<option>SRH</option>
+<option>GT</option>
+<option>KKR</option>
+</select>
+<br><br>
+<label>Fav City</label>
+<input list="mycity">
+<datalist id="mycity">
+<option>Vizag</option>
+<option>Chennai</option>
+<option>Hyderabad</option>
+<option>Benguluru</option>
+<option>Pune</option>
+<option>Indore</option>
+</datalist>
+<br><br>
+<label>Feedback</label>
+<textarea cols="40" rows="10"></textarea>
+<input type="submit" value="Register Now">
+<input type="reset" value="Cancel">
+</form>
+</fieldset>
+</body>
+</html>
