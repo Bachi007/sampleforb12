@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @media only screen and (min-width:720px){
+            h1{
+                color:red;
+            }
+            img{
+                height: 200px;
+                width: 200px;
+            }
+            .container{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+            }
+        }
+        @media only screen and (max-width:720px){
+            h1{
+                color:blue;
+            }
+             img{
+                height: 200px;
+                width: 200px;
+            }
+            .container{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+            }
+        }
+
+        img{
+            filter:hue-rotate(180deg);
+        }
+        img:hover{
+            filter:opacity(100%);
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div>
+        <h1>Dr Reddys Foundation</h1>
+    </div>
+    <div class="container">
+        <div style=""><img src="/capt.jpg" alt=""></div>
+        <div style=""><img src="/blackpanther.webp" alt=""></div>
+        <div style=""><img src="/hulk.jpg" alt=""></div>
+        <div style=""><img src="/ironman.webp" alt=""></div>
+        <div style=""><img src="/spidey.jpg" alt=""></div>
+        <div style=""><img src="/thor.webp" alt=""></div>
+    </div>
+</body>
+</html>

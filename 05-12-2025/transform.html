@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            height: 150px;
+            width: 200px;
+            padding: 10px;
+            color:red;
+            border:1px solid black;
+            transition: width 3s,transform 5s,color 3s;
+            transition-delay: 2s;
+        }
+        .container:hover{
+            width:400px;
+            transform: rotate(180deg);
+            color:blue;
+        }
+        .myh1{
+            position: absolute;
+            z-index: 5;
+            top:250px;
+            left:50px;
+            font-size: 40px;
+            text-transform: uppercase;
+            background-image:url('https://t4.ftcdn.net/jpg/06/06/87/63/360_F_606876358_NU2hCq3RP7xDpXG6PWnAMGGAun0fB5tW.jpg');
+            color:transparent;
+            background-clip:text ;
+           }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>MEARN stack</h1>
+    </div>
+
+    <div>
+        <div>
+            <h1 class="myh1">Bhaskara Sai Chitturi</h1>
+        </div>
+    </div>
+
+
+</body>
+</html>

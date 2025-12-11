@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav{
+            background-color: lightgray;
+            padding: 10px;
+        }
+       .nav-item{
+        display: inline;
+        margin-left:50px ;
+       }
+       .nav-link{
+        text-decoration: none;
+        font-size:20px;
+        font-weight: 900;
+       }
+       h1:hover{
+        border:1px solid black;
+       }
+       
+       input:focus{
+        border:none;
+        outline:2px solid blue;
+       }
+       table,td{
+        border:1px solid grey;
+        border-collapse: collapse;
+        padding:10px;
+       }
+       tr:nth-child(even){
+        background-color: lightgray;
+       }
+       h1::before{
+        content:'*'
+       }
+       p::first-line{
+        color:red;
+       }
+       p::first-letter{
+        font-family: chiller;
+        font-size:50px;
+       }
+       p::selection{
+        color:white;
+        background-color: white;
+       }
+       input::placeholder{
+        color:red;
+       }
+       .dropdown-menu{
+        display: none;
+        background-color: lightgray;
+        padding:10px;
+        width:120px;
+        margin-top: -10px;
+       }
+       li{
+        list-style-type: none;
+        a{
+            text-decoration: none;
+        }
+       }
+       .dropdown:hover .dropdown-menu{
+        display: block;
+       }
+       .container{
+        height: 300px;
+        width: 300px;
+        padding:50px;
+        border:1px solid red;
+        box-sizing: border-box;
+       }
+    </style>
+</head>
+<body>
+    <h1>Digital Rebels</h1>
+   <nav>
+    <ul>
+        <li class="nav-item"><a href="https://www.facebook.com" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="https://www.instagram.com" class="nav-link">About</a></li>
+        <li class="nav-item"><a href="https://www.youtube.com" class="nav-link">Services</a></li>
+        <li class="nav-item"><a href="https://www.linkedin.com" class="nav-link">Gallery</a></li>
+        <li class="nav-item"><a href="https://www.twitter.com" class="nav-link">Careers</a></li>
+        <li class="nav-item"><a href="https://www.google.com" class="nav-link">Contact</a></li>
+    </ul>
+   </nav>
+
+    <div class="container">
+        <h1>Hello World</h1>
+    </div>
+</body>
+</html>

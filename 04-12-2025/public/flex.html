@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            height: 200px;
+            width: 200px;
+        }
+        .container{
+            display: flex;
+            flex-direction: row;
+            border:2px solid blue;
+            
+        }
+        .container>div{
+            border:1px solid red;
+            padding:5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div style="order:5"><img src="/capt.jpg" alt=""></div>
+        <div style="order:1;flex-grow:2"><img src="/blackpanther.webp" alt=""></div>
+        <div style="order:4;flex-grow: 3;"><img src="/hulk.jpg" alt=""></div>
+        <div style="order:6;flex-grow:1"><img src="/ironman.webp" alt=""></div>
+        <div style="order:2"><img src="/spidey.jpg" alt=""></div>
+        <div style="order:3"><img src="/thor.webp" alt=""></div>
+    </div>
+</body>
+</html>

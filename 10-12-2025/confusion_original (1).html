@@ -1,0 +1,273 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Ristorante Con Fusion</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/css/bootstrap.min.css"
+        integrity="sha512-2bBQCjcnw658Lho4nlXJcc6WkV/UxpE/sAokbXPxQNGqmNdQrWqtw26Ns9kFF/yG792pKR1Sx8/Y1Lf1XN4GKA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/js/bootstrap.bundle.min.js"
+        integrity="sha512-HvOjJrdwNpDbkGJIG2ZNqDlVqMo77qbs4Me4cah0HoDrfhrbA+8SBlZn1KrvAQw7cILLPFJvdwIgphzQmMm+Pw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+
+    <header>
+        <div>
+            <div>
+                <div class="bg-secondary p-5 text-white">
+                    <h1 class="">Ristorante con Fusion</h1>
+                    <p class="">We take inspiration from the World's best cuisines, and create a unique fusion
+                        experience. Our lipsmacking creations will tickle your culinary senses!</p>
+                </div>
+                <div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+     <nav class="navbar navbar-expand-md bg-primary navbar-dark">
+        <div class="container-fluid">
+        <a href="" class="navbar-brand">DRF</a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" 
+                                          data-bs-target="#navbarcontent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarcontent">
+                 <ul class="navbar-nav">
+                <li class="nav-item"><a href="" class="nav-link active">Home</a></li>
+                <li class="nav-item"><a href="" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Gallery</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Careers</a></li>
+                 <li class="nav-item">
+                    <button class="btn btn-warning" data-bs-toggle="modal" 
+                    data-bs-target="#loginmodal">Login</button></li>
+        </ul>
+            </div>
+       </div>
+    </nav>
+ 
+    <div class="modal fade" id="loginmodal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1>Login here</h1>
+                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="">
+                        <div class="form-group">
+                            <label for="uname" class="form-label">username</label>
+                            <input type="text" id="uname" class="form-control" placeholder="Enter username">
+                        </div>
+                        <div class="form-group">
+                            <label for="" class="form-label">password</label>
+                            <input type="password" class="form-control" placeholder="Enter password">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary">Login</button>
+                    <button class="btn btn-danger">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-md-12">
+
+                <div class="carousel slide" id="mycar" data-bs-ride="carousel" data-bs-interval="3000">
+                   <div class="carousel-indicators">
+                    <button data-bs-target="#mycar" data-bs-slide-to="0" class="active"></button>
+                    <button data-bs-target="#mycar" data-bs-slide-to="1"></button>
+                    <button data-bs-target="#mycar" data-bs-slide-to="2"></button>
+                   </div>
+                   
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="1.png" class="d-block w-100">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h1>Neverend Soda</h1>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="2.png" class="d-block w-100">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h1>Neverend Soda 2</h1>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="3.png" class="d-block w-100">
+                            <div class="carousel-caption">
+                                <h1>Neverend Soda 3</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#mycar">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                     <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#mycar">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-header">
+                        <img src="https://img.freepik.com/free-vector/smiling-young-man-hoodie_1308-176157.jpg?semt=ais_hybrid&w=740&q=80" alt="" class="card-img-top">
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title">Santhi Kumar</h1>
+                            <div class="accordion" id="acc">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button" data-bs-toggle="collapse" 
+                                           data-bs-target="#one">Introduction</button>
+                                    </h2>
+                                    <div class="collapse accordion-collapse" id="one" data-bs-parent="#acc">
+                                        <div class="accordion-body">
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem facilis, repudiandae numquam dolorum officia, nam eaque dolor fugiat eligendi nostrum laborum? Sit, unde enim! Quis suscipit nihil expedita nam sapiente!</p>
+                                    </div>
+                                    </div>
+                                </div>
+                                 <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#two">Qualification</button>
+                                    </h2>
+                                    <div class="collapse accordion-collapse" id="two" data-bs-parent="#acc">
+                                        <div class="accordion-body">
+                                        <p>Mtech- mastan university</p>
+                                    </div>
+                                    </div>
+                                </div>
+                                 <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#three">Address</button>
+                                    </h2>
+                                    <div class="collapse accordion-collapse" id="three" data-bs-parent="#acc">
+                                        <div class="accordion-body">
+                                        <p>Vijayawada</p>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="row d-flex justify-content-end">
+            <div class="col-12 col-md-5">
+                <h3>Our Lipsmacking Culinary Creations</h3>
+            </div>
+          </div>
+
+
+        <div class="row">
+            <div class="col-md-5">
+                <h3>This Month's Promotions</h3>
+            </div>
+            <div class="col-md-7">
+                <h2>Weekend Grand Buffet</h2>
+                <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers,
+                    six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just
+                    $19.99 per person </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-5">
+                <h3>Meet our Culinary Specialists</h3>
+            </div>
+            <div class="col-md-7">
+                <h2>Bhaskar bachi</h2>
+                <h4>Executive Chef</h4>
+                <p>Award winning three-star Michelin chef with wide International experience having worked closely with
+                    whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion
+                    experiences. </p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Links</h5>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Our Address</h5>
+                    <address>
+                        4-2-s5, Bommagunta<br>
+                        Near Pushkarini
+                        Tirupati, Chittor-517501<br>
+                        Tel.: +91 905 906 5724<br>
+
+                        Email: <a href="mailto:enquiry@bhaskarasai.in">enquiry@bhaskarasai.in</a>
+                    </address>
+                </div>
+                <div class="col-md-4">
+                    <div>
+                        <a href="http://google.com/+">Google+</a>
+                        <a href="http://www.facebook.com/profile.php?id=">Facebook</a>
+                        <a href="http://www.linkedin.com/in/">LinkedIn</a>
+                        <a href="http://twitter.com/">Twitter</a>
+                        <a href="http://youtube.com/">YouTube</a>
+                        <a href="mailto:">Mail</a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <p>© Copyright 2018 Ristorante Con Fusion</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
